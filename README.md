@@ -1,2 +1,0 @@
-# chat-app
-# dispar-meulaboh
