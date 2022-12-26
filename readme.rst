@@ -76,13 +76,16 @@ Turn On .ENV
 ***************
 
 Masuk ke directori application melalui command line dan lakukan perintah berikut:
-```shell
-composer require vlucas/phpdotenv ^3.6
-```
 
-```shell
+
+
+<code>
+composer require vlucas/phpdotenv ^3.6
+</code>
+
+<code>
 composer install
-```
+</code>
 
 
 Selanjutnya, buatlah file .env di dalam direktori application. Gunakan text editor seperti Sublime atau yang lainnya untuk membuat file tersebut.
