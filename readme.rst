@@ -69,3 +69,26 @@ Acknowledgement
 
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
+
+
+***************
+Turn On .ENV
+***************
+
+Masuk ke directori application melalui command line dan lakukan perintah berikut:
+```shell
+composer require vlucas/phpdotenv ^3.6
+```
+
+```shell
+composer install
+```
+
+
+Selanjutnya, buatlah file .env di dalam direktori application. Gunakan text editor seperti Sublime atau yang lainnya untuk membuat file tersebut.
+
+Penggunaan .env pada CodeIgniter
+Pada bagian ini adalah langkah terakhir dalam integrasi .env pada CodeIgniter, yaitu menggunakan variabel ENVIRONMENT pada konfigurasi bawaan CI. Sebagai contoh saya akan mengubah konfigurasi database menggunakan .env.
+
+
+*NB: penggunaan environment variabel bisa menggunakan getenv(), $_ENV[], $_SERVER[]
